@@ -50,6 +50,7 @@ let is_compiler_and_toolchains_enabled name =
       [ Package_name.of_string "ocaml-base-compiler"
       ; Package_name.of_string "ocaml-variants"
       ; Package_name.of_string "ocaml-compiler"
+      ; Package_name.of_string "ocaml-cross-compiler"
         (* The [ocaml-compiler] package is required to include all the
            packages that might install a compiler, starting from ocaml.5.3.0.
         *)
